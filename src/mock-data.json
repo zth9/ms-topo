@@ -1,0 +1,95 @@
+{
+  "result": {
+    "edges": [
+      {
+        "source": "APPLICATION#1",
+        "target": "RESOURCE#1795528"
+      },
+      {
+        "source": "APPLICATION#1",
+        "target": "RESOURCE#1795711"
+      },
+      {
+        "source": "RESOURCE#1796008",
+        "target": "APPLICATION#1"
+      },
+      {
+        "source": "RESOURCE#1797476",
+        "target": "APPLICATION#1"
+      },
+      {
+        "source": "APPLICATION#296",
+        "target": "APPLICATION#1"
+      },
+      {
+        "source": "APPLICATION#1",
+        "target": "APPLICATION#72"
+      },
+      {
+        "source": "APPLICATION#1",
+        "target": "APPLICATION#122"
+      },
+      {
+        "source": "APPLICATION#1",
+        "target": "APPLICATION#293"
+      },
+      {
+        "source": "APPLICATION#1",
+        "target": "APPLICATION#296"
+      }
+    ],
+    "nodes": [
+      {
+        "endpointType": "DUBBO",
+        "id": "APPLICATION#1",
+        "label": "my-app"
+      },
+      {
+        "endpointType": "MYSQL",
+        "id": "RESOURCE#1795528",
+        "label": "my-mysql"
+      },
+      {
+        "endpointType": "REDIS",
+        "id": "RESOURCE#1795711",
+        "label": "my-redis"
+      },
+      {
+        "endpointType": "ROCKET_MQ",
+        "id": "RESOURCE#1796008",
+        "label": "my-mq1"
+      },
+      {
+        "endpointType": "ROCKET_MQ",
+        "id": "RESOURCE#1797476",
+        "label": "my-mq2"
+      },
+      {
+        "endpointType": "DUBBO",
+        "id": "APPLICATION#296",
+        "label": "up-service"
+      },
+      {
+        "endpointType": "DUBBO",
+        "id": "APPLICATION#72",
+        "label": "down-service1"
+      },
+      {
+        "endpointType": "DUBBO",
+        "id": "APPLICATION#122",
+        "label": "down-service2"
+      },
+      {
+        "endpointType": "DUBBO",
+        "id": "APPLICATION#293",
+        "label": "down-service3"
+      }
+    ],
+    "table": []
+  },
+  "status": {
+    "status_code": "0",
+    "status_reason": "success"
+  },
+  "success": true
+}

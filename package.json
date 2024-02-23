@@ -1,0 +1,54 @@
+{
+  "name": "ms-topo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.8.9",
+    "@antv/g2plot": "^2.4.25",
+    "@antv/g6": "^4.8.7",
+    "css-loader": "^1.0.1",
+    "element-ui": "^2.15.13",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.27.0",
+    "qs": "^6.9.6",
+    "vue": "^2.7.14",
+    "vue-codemirror-lite": "^1.0.4",
+    "vuex": "^3.5.1",
+    "whatwg-fetch": "^3.4.0",
+    "core-js": "^3.6.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "babel-plugin-component": "^1.1.1",
+    "vue-loader": "^14.2.4",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

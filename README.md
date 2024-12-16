@@ -1,7 +1,7 @@
 # ms-topo 一个基于 G6 的微服务拓扑图组件
 
 ## 预览
-
+https://zth9.github.io/ms-topo/
 ![image](https://github.com/Tian90coder/ms-topo/blob/main/public/preview.png?raw=true)
 
 ## 版本

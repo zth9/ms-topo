@@ -2,7 +2,6 @@
   "name": "ms-topo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://zth9.github.io/ms-topo",
   "scripts": {
     "deploy": "gh-pages -d dist -r https://github.com/zth9/ms-topo.git -b gh-pages",
     "serve": "vue-cli-service serve",

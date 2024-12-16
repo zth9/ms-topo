@@ -31,7 +31,7 @@ export default {
     }
   },
   watch: {
-    currentNode(oldVal, newVal) {
+    currentNode() {
     }
   },
   data() {
